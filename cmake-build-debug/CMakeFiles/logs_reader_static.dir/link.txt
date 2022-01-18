@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc liblogs_reader_static.a CMakeFiles/logs_reader_static.dir/logs_reader/logs_graph.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib liblogs_reader_static.a
