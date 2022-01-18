@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../logs_reader/logs_graph.h
+queue
+-
+vector
+-
+memory
+-
+map
+-
+string
+-
+sstream
+-
+unordered_set
+-
+fstream
+-
+
+/Users/sikalov/mipt/gos/bin/main.cpp
+iostream
+-
+fstream
+-
+logs_graph.h
+/Users/sikalov/mipt/gos/bin/logs_graph.h
+

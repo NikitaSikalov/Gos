@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package serializable;
+
+message Neighbour {
+  uint64 id = 1;
+  uint64 count = 2;
+}
+
+message Vertex {
+  enum VertexType {
+    START = 0;
+    REGULAR = 1;
+    END = 2;
+  }
+
+  uint64 id = 1;
+  repeated Neighbour neighbours = 2;
+  uint64 token_id = 3;
+  VertexType type = 4;
+}
+
+message TokensGraph {
+  map<uint64, string> tokens = 1;
+  repeated Vertex vertexes = 2;
+}

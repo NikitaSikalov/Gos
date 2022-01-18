@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblogs_reader_proto.a CMakeFiles/logs_reader_proto.dir/logs_reader/proto/graph.pb.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblogs_reader_proto.a

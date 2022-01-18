@@ -1,0 +1,8 @@
+"/Users/sikalov/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/sikalov/mipt/gos
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.22 or higher is required.  You are running version 3.19.2
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/sikalov/mipt/gos/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/sikalov/mipt/gos/cmake-build-debug/CMakeFiles/CMakeError.log".

@@ -1,0 +1,4 @@
+/Users/sikalov/mipt/gos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sikalov/mipt/gos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sikalov/mipt/gos/cmake-build-debug/CMakeFiles/main.dir
+/Users/sikalov/mipt/gos/cmake-build-debug/CMakeFiles/logs_reader_static.dir
