@@ -1,5 +1,5 @@
 #include "logs_graph.h"
-#include "proto/graph.pb.h"
+#include "graph.pb.h"
 
 namespace {
     using namespace logs_reader;

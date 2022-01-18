@@ -5,3 +5,4 @@ include_directories(${PROTOBUF_INCLUDE_DIR})
 
 protobuf_generate_cpp(PROTO_SRC PROTO_HEADER graph.proto)
 add_library(proto ${PROTO_HEADER} ${PROTO_SRC})
+target_link_libraries(proto INTERFACE ${Protobuf_LIBRARIES})
