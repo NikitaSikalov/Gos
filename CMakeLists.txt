@@ -14,4 +14,6 @@ target_link_libraries(logs_reader_static proto ${PROTOBUF_LIBRARY})
 
 add_executable(serialize bin/serialize.cpp)
 add_executable(deserialize bin/deserialize.cpp)
-target_link_libraries(main proto ${PROTOBUF_LIBRARY})
+
+target_link_libraries(serialize logs_reader_static)
+target_link_libraries(deserialize logs_reader_static)
